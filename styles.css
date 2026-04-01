@@ -1,0 +1,191 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000px;
+}
+
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: none;
+
+}
+
+.show-menu {
+    display: block;
+
+
+}
+
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name,
+.icon {
+    display: inline-block;
+    width: 100px;
+    text-align: center
+}
+
+.icon {
+    margin-left: 250px;
+}
+
+.icon-toggled-margin {
+    margin-left: 0;
+}
+
+.icon-group {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media only screen and (min-width:527px) {
+
+    .icon {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .name {
+        flex-basis: 50%;
+    }
+
+    .menu {
+        display: inline-block;
+        flex-basis: 50%;
+        text-align: center;
+
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+    li {
+        display: inline-block;
+        margin-right: 0.3rem;
+    }
+
+    .projects>ul>li {
+        display: block;
+        text-align: center;
+    }
+
+    .icon-group {
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width:595px) {
+    .icon-group {
+        margin: 1.4rem;
+    }
+
+    .about-me {
+        display: flex;
+        margin-top: 5rem;
+    }
+
+
+}
+
+@media only screen and (min-width:651px) and (max-width:669px) {
+    .icon-group {
+        margin: 1.5rem;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+
+}
+
+@media only screen and (min-width:669px) and (max-width:743px) {
+    .icon-group {
+        margin: 1.8rem;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 1.2rem;
+    }
+}
+
+@media only screen and (min-width:743px) and (max-width:777px) {
+    .icon-group {
+        margin: 2rem;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:778px) and (max-width:907px) {
+    .icon-group {
+        margin: 2.5rem;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (min-width:908px) and (max-width:1017px) {
+    .icon-group {
+        margin: 3rem;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 2.5rem;
+    }
+}
+
+@media only screen and (min-width:1017px) and (max-width:1113px) {
+    .icon-group {
+        margin: 3.5rem;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 2.7rem;
+    }
+}
+
+@media only screen and (min-width:1114px) {
+    .icon-group {
+        margin: 4rem;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 3rem;
+    }
+}
