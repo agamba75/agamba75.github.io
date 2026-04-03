@@ -6,9 +6,17 @@ body {
     height: 1000px;
 }
 
+.projects,
+.skills,
+.contacts {
+    margin-top: 3rem;
+}
+
+
 
 img {
-    width: 100%;
+    width: 65%;
+    margin-left: 5rem;
 }
 
 .menu {
@@ -44,7 +52,7 @@ img {
 }
 
 .icon-group {
-    margin: 10px;
+    margin: 3rem 10px 0;
 }
 
 h1 {
@@ -53,6 +61,11 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
 }
 
 @media only screen and (min-width:527px) {
