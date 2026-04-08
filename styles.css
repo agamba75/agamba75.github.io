@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    height: 62rem;
+
+
     background-color: lightgray;
     margin: 0 1.5rem;
 }
@@ -60,6 +61,10 @@ img {
     text-align: center
 }
 
+.name {
+    font-size: 1.6rem;
+}
+
 .icon {
     margin-left: 250px;
 }
@@ -100,8 +105,11 @@ h2 {
     text-align: center;
 }
 
+
 .footer {
-    position: fixed;
+    position: relative;
+
+    top: 9rem;
     bottom: 0;
     width: 100%;
     text-align: center;
