@@ -19,7 +19,7 @@ body {
 
 img {
     width: 65%;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
 }
 
 .hide-img {
@@ -78,7 +78,9 @@ img {
     font-size: 1.6rem;
 }
 
-
+.center-img {
+    text-align: center;
+}
 
 .icon-toggled-margin {
     margin-left: 0;
@@ -101,7 +103,9 @@ img {
     font-size: 1.5rem;
 }
 
-
+div.about-me {
+    text-align: justify;
+}
 
 .skills ul>li {
     margin-top: 10px;
@@ -119,8 +123,6 @@ h2 {
 
 .footer {
     position: relative;
-
-    /* top: 9rem; */
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -128,7 +130,7 @@ h2 {
 
 
 
-@media only screen and (min-width:527px) {
+@media only screen and (min-width:534px) {
 
     .icon {
         display: none;
@@ -159,7 +161,7 @@ h2 {
 
     li {
         display: inline-block;
-        margin-right: 0.3rem;
+        /* margin-right: 0.1rem; */
     }
 
     .projects-menu>li {
@@ -168,7 +170,7 @@ h2 {
     }
 
     .icon-group {
-        margin: 1rem;
+        margin: 0.8rem;
     }
 
     .skills-menu li {
@@ -183,6 +185,10 @@ h2 {
     .hide-img-2 {
         display: none;
     }
+
+    .center-img-2 {
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (min-width:595px) {
@@ -195,7 +201,11 @@ h2 {
         margin-top: 5rem;
     }
 
-
+    .center-img-2 {
+        width: 90%;
+        margin: 4.7rem auto;
+        height: 65%;
+    }
 
 }
 
@@ -241,12 +251,17 @@ h2 {
 
 @media only screen and (min-width:778px) and (max-width:907px) {
     .icon-group {
-        margin: 2.5rem;
+        margin: 1.5rem;
     }
 
     li {
         display: inline-block;
-        margin-right: 2rem;
+        margin-right: 1rem;
+    }
+
+    .center-img-2 {
+        margin: 6.25rem auto;
+        width: 90%;
     }
 
 
@@ -254,7 +269,7 @@ h2 {
 
 @media only screen and (min-width:908px) and (max-width:1017px) {
     .icon-group {
-        margin: 3rem;
+        margin: 2.5rem;
     }
 
     li {
@@ -267,7 +282,7 @@ h2 {
 
 @media only screen and (min-width:1017px) and (max-width:1113px) {
     .icon-group {
-        margin: 3.5rem;
+        margin: 3rem;
     }
 
     li {
@@ -289,7 +304,7 @@ h2 {
 
     li {
         display: inline-block;
-        margin-right: 3rem;
+        margin-right: 2.3rem;
     }
 
     body {
